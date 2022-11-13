@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -228,4 +229,42 @@ hr{
     margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
+}
+
+/* ------------login---------- */
+
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form .row{
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+
+.form .row img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: #fff;
+    border: 1px solid;
+    color: #64dcdc;
+}
+
+.exit{
+    text-decoration: none;
 }
