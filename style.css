@@ -134,3 +134,98 @@ body{
 }
 
 /* --------------Testimonials Section--------------- */
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #64dcdc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* -------------------Social media------------------- */
+
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* ----------------Footer Section---------------- */
+#footer{
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa-solid{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.subscribe-btn{
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+    color: #fff;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    margin-top: 30px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}

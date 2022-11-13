@@ -32,13 +32,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <svg id="logo-35" width="50" height="39" viewBox="0 0 50 39" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z" class="ccompli1" fill="#007AFF">
-                        </path>
-                        <path d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z"
-                            class="ccustom" fill="#312ECB"></path>
-                    </svg>
+                    <img src="images/demo-logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,16 +42,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">HOME</a>
+                            <a class="nav-link" href="#top">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">BALANCE</a>
+                            <a class="nav-link" href="#services">BALANCE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">ABOUT US</a>
+                            <a class="nav-link" href="#about-us">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">CONTACT</a>
+                            <a class="nav-link" href="#footer">CONTACT</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/">LOGIN</a>
@@ -79,7 +73,7 @@
                     <p class="promo-title">BEST FINANCE AGENCY</p>
                     <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
                         Marketing, WordPress and graphics Designing.</p>
-                    <a href="#"><img class="play-btn" src="images/play.png" alt=""></a>Watch Tutorials
+                    <a href="#"><img class="play-btn" src="images/play.png" alt=""></a>Watch More
                 </div>
                 <div class="col-md-6 text-center">
                     <img class="img-fluid" src="images/home2.png" alt="">
@@ -152,18 +146,71 @@
     <section id="testimonials">
         <div class="container">
             <h1 class="title text-center">WHAT CLIENTS SAY</h1>
-            <div class="row">
-                <div class="col-md-5 testimopnials">
+            <div class="row offset-1">
+                <div class="col-md-5 testimonials">
                     <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
                         Marketing, WordPress and graphics Designing.</p>
                         <img src="images/user1.jpg" alt="">
-                        <p><b>Agelina</b><br> Co-founder at xyz</p>
+                        <p class="user-details"><b>Agelina</b><br> Co-founder at xyz</p>
                 </div>
+                <div class="col-md-5 testimonials">
+                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
+                        Marketing, WordPress and graphics Designing.</p>
+                        <img src="images/user2.jpg" alt="">
+                        <p class="user-details"><b>John Doe</b><br> Director at xyz</p>
+                </div>
+                
             </div>
         </div>
     </section>
 
+    <!-- ------------------Social Media Section-------------------- -->
+    <section id="social-media">
+        <div class="container text-center">
+            <p>FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+                <a href=""><img src="images/facebook-icon.png" alt=""></a>
+                <a href=""><img src="images/instagram-icon.png" alt=""></a>
+                <a href=""><img src="images/twitter-icon.png" alt=""></a>
+                <a href=""><img src="images/whatsapp-icon.png" alt=""></a>
+                <a href=""><img src="images/linkedin-icon.png" alt=""></a>
+                <a href=""><img src="images/snapchat-icon.png" alt=""></a>
+            </div>
+        </div>
+    </section>
 
+    <!-- ------------------Footer Section---------------------- -->
+    <section id="footer">
+        <img src="images/wave2.png" class="footer-img" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="images/demo-logo.png" alt="">
+                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital Marketing, WordPress and graphics Designing. Press the bell icon to get notifications.</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fa-solid fa-location-dot"></i> World Trade Centre, Bangladesh</p>
+                    <p><i class="fa-solid fa-phone"></i> +888 01712345678</p>
+                    <p><i class="fa-solid fa-envelope"></i> xyz@gmail.com</p>
+                </div>
+
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBER NEWSLETTER</b></p>
+                    <input type="email" class="form-control" placeholder="Your email">
+                    <button type="button" class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Website Crfted by Nosia Nuri</p>
+        </div>
+    </section>
+
+    <!----------- Smooth Scroll --------->
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 
 </body>
 
