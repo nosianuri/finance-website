@@ -1,15 +1,17 @@
-document.getElementById('login-submit').addEventListener('click', function () {
-    // const nameField = document.getElementById('user-name');
-    // const userName = nameField.value;
-    // get user email
-    const emailField = document.getElementById('user-email');
-    const userEmail = emailField.value;
-   
-    // get user password
-    const passwordField = document.getElementById('user-password');
-    const userPassword = passwordField.value;
-// check email & password
-    if (userEmail == 'sontan@baap.com' && userPassword == 'secret') {
-        window.location.href = 'home.html'
-    }
-})
+// handle deposit button event
+document.getElementById('deposit-button').addEventListener('click', function () {
+    // get the amount deposited
+    const depositInput = document.getElementById('deposit-input');
+
+    const newDepositAmountText = depositInput.value;
+   const newDepositAmount = parseFloat(newDepositAmountText);
+
+    const depositTotal = document.getElementById('deposit-total');
+    const previousDepositText = depositTotal.innerText;
+    const previousDepositAmount = parseFloat(previousDepositText)
+    const newDepositTotal = previousDepositAmount + newDepositAmount;
+    depositTotal.innerText = newDepositTotal;
+
+    // clear the deposit input field
+    depositInput.value = '';
+});

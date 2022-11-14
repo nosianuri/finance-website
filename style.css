@@ -111,6 +111,10 @@ body{
     border-radius: 20px;
     box-shadow: none;
 }
+/* ------------------Deposit & Withdraw----------------- */
+.depo-with{
+    margin-bottom: 60px;
+}
 
 /* -----------------about us section------------------- */
 

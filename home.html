@@ -29,7 +29,7 @@
 
     <section id="nav-bar">
 
-       
+
 
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -60,12 +60,9 @@
                         </li>
 
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-success" type="submit">Login</button>
-                      <button class="btn btn-outline-success" type="submit">Register</button>
-                    </form>
+
                 </div>
-                
+
             </div>
         </nav>
 
@@ -94,28 +91,61 @@
 
     <section id="services">
         <div class="container text-center">
-            <h1 class="title">WHAT WE DO ?</h1>
+            <h1 class="title">DEPOSIT & WITHDRAW !</h1>
+            <!-- Balance & Transaction -->
             <div class="row text-center">
-                <div class="col-md-4 services">
-                    <img src="images/service1.png" class="service-img" alt="">
-                    <h4>Growth Marketing</h4>
-                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
-                        Marketing, WordPress and graphics Designing.</p>
+                <div class="col-md-4 gap-4 w-3/4 mx-auto text-light">
+                    <div class="bg-info pt-16 rounded">
+                        <h3 class="fs-5">Deposit</h3>
+                        <h4 class="fs-2">$<span id="deposit-total">00</span></h4>
+                    </div>
+
                 </div>
-                <div class="col-md-4 services">
-                    <img src="images/service2.png" class="service-img" alt="">
-                    <h4>Online Branding</h4>
-                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
-                        Marketing, WordPress and graphics Designing.</p>
+                <div class="col-md-4 gap-4 w-3/4 mx-auto text-light">
+                    <div class="bg-warning p-8 rounded">
+                        <h3 class="fs-5">Withdraw</h3>
+                        <h4 class="fs-2">$00</h4>
+                    </div>
+
                 </div>
-                <div class="col-md-4 services">
-                    <img src="images/service3.png" class="service-img" alt="">
-                    <h4>Animated Ads</h4>
-                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
-                        Marketing, WordPress and graphics Designing.</p>
+                <div class="col-md-4 gap-4 w-3/4 mx-auto text-light">
+                    <div class="bg-success p-8 rounded">
+                        <h3 class="fs-5">Balance</h3>
+                        <h4 class="fs-2">$1240</h4>
+                    </div>
+
                 </div>
+
             </div>
-            <button type="button" class="butn-service">All Services</button>
+
+        </div>
+    </section>
+    <!-- Deposit & Withdraw -->
+    <section class="depo-with">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-5 w-3/4 mx-auto">
+                    <div class="bg-danger p-8 rounded gap-4">
+                        <h3 class="fs-2">Please Deposit</h3>
+                        <div>
+                            <input id="deposit-input" type="text" placeholder="$ amount you want to deposit">
+                            <button id="deposit-button" class="bg-info text-light">Deposit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 w-3/4 mx-auto">
+                    <div class="bg-secondary p-8 rounded gap-4">
+                        <h3 class="fs-2">Please Withdraw</h3>
+                        <div>
+                            <input id="withdraw-input" type="text" placeholder="$ amount you want to withdraw">
+                            <button id="withdraw-button" class="bg-success text-light">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
         </div>
     </section>
 
@@ -126,26 +156,26 @@
             <h1 class="title text-center">
                 WHY CHOOSE US ?
             </h1>
-        
-        <div class="row">
-            <div class="col-md-6">
-                <p class="about-title">Why we're different</p>
-                <ul>
-                    <li>Understand our client's business goal first</li>
-                    <li>Believe in doing business with honesty</li>
-                    <li>We deliver on time</li>
-                    <li>We create a winning content strategy</li>
-                    <li>We protect your online reputation</li>
-                    <li>We create a winning content strategy</li>
-                    <li>We protect your online reputation</li>
-                </ul>
 
-            </div>
-            <div class="col-md-6">
-                <img src="images/network.png" class="img-fluid" alt="">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="about-title">Why we're different</p>
+                    <ul>
+                        <li>Understand our client's business goal first</li>
+                        <li>Believe in doing business with honesty</li>
+                        <li>We deliver on time</li>
+                        <li>We create a winning content strategy</li>
+                        <li>We protect your online reputation</li>
+                        <li>We create a winning content strategy</li>
+                        <li>We protect your online reputation</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="images/network.png" class="img-fluid" alt="">
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- ----------------Testimonials Section--------------- -->
@@ -157,16 +187,16 @@
                 <div class="col-md-5 testimonials">
                     <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
                         Marketing, WordPress and graphics Designing.</p>
-                        <img src="images/user1.jpg" alt="">
-                        <p class="user-details"><b>Agelina</b><br> Co-founder at xyz</p>
+                    <img src="images/user1.jpg" alt="">
+                    <p class="user-details"><b>Agelina</b><br> Co-founder at xyz</p>
                 </div>
                 <div class="col-md-5 testimonials">
                     <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
                         Marketing, WordPress and graphics Designing.</p>
-                        <img src="images/user2.jpg" alt="">
-                        <p class="user-details"><b>John Doe</b><br> Director at xyz</p>
+                    <img src="images/user2.jpg" alt="">
+                    <p class="user-details"><b>John Doe</b><br> Director at xyz</p>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -193,7 +223,8 @@
             <div class="row">
                 <div class="col-md-4 footer-box">
                     <img src="images/demo-logo.png" alt="">
-                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital Marketing, WordPress and graphics Designing. Press the bell icon to get notifications.</p>
+                    <p>Subscribe Easy tutorials Youtube Channel to watch more videos on website development, Digital
+                        Marketing, WordPress and graphics Designing. Press the bell icon to get notifications.</p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p><b>CONTACT US</b></p>
@@ -213,6 +244,7 @@
         </div>
     </section>
 
+    <script src="js/bank.js"></script>
     <!----------- Smooth Scroll --------->
     <script src="smooth-scroll.js"></script>
     <script>
