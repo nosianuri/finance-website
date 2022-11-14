@@ -9,7 +9,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
 // check email & password
-    if (userEmail == 'sontan@baap.com' && userPassword == 'secret') {
+    if (userEmail == 'test@dev.com' && userPassword == 'secret') {
         window.location.href = 'home.html'
     }
 });

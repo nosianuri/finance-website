@@ -117,6 +117,7 @@ body{
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 10px;
 }
 
 .withdraw{
@@ -124,12 +125,14 @@ body{
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 10px;
 }
 .balance{
     background: #40514E;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 10px;
 }
 /* ------------------Deposit & Withdraw----------------- */
 .depo-with{
@@ -140,12 +143,14 @@ body{
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 10px;
 }
 .with-style{
     background: #4e8278;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 10px;
 }
 #deposit-input{
     padding: 3px;
@@ -182,7 +187,7 @@ body{
 }
 
 .about-title{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     margin-top: 8%;
     margin-left: 80px;
