@@ -95,23 +95,23 @@
             <!-- Balance & Transaction -->
             <div class="row text-center">
                 <div class="col-md-4 gap-4 w-3/4 mx-auto text-light">
-                    <div class="bg-info pt-16 rounded">
+                    <div class="deposit">
                         <h3 class="fs-5">Deposit</h3>
                         <h4 class="fs-2">$<span id="deposit-total">00</span></h4>
                     </div>
 
                 </div>
                 <div class="col-md-4 gap-4 w-3/4 mx-auto text-light">
-                    <div class="bg-warning p-8 rounded">
+                    <div class="withdraw">
                         <h3 class="fs-5">Withdraw</h3>
-                        <h4 class="fs-2">$00</h4>
+                        <h4 class="fs-2">$<span id="withdraw-total">00</span> </h4>
                     </div>
 
                 </div>
                 <div class="col-md-4 gap-4 w-3/4 mx-auto text-light">
-                    <div class="bg-success p-8 rounded">
+                    <div class="balance">
                         <h3 class="fs-5">Balance</h3>
-                        <h4 class="fs-2">$1240</h4>
+                        <h4 class="fs-2">$ <span id="balance-total">1240</span></h4>
                     </div>
 
                 </div>
@@ -125,20 +125,20 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-5 w-3/4 mx-auto">
-                    <div class="bg-danger p-8 rounded gap-4">
-                        <h3 class="fs-2">Please Deposit</h3>
+                    <div class="depo-style">
+                        <h3 class="fs-2 text-light">Please Deposit</h3>
                         <div>
-                            <input id="deposit-input" type="text" placeholder="$ amount you want to deposit">
-                            <button id="deposit-button" class="bg-info text-light">Deposit</button>
+                            <input id="deposit-input" type="text" placeholder="$ Enter Deposit Amount">
+                            <button id="deposit-button" class="deposit-button">Deposit</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 w-3/4 mx-auto">
-                    <div class="bg-secondary p-8 rounded gap-4">
-                        <h3 class="fs-2">Please Withdraw</h3>
+                    <div class="with-style">
+                        <h3 class="fs-2 text-light">Please Withdraw</h3>
                         <div>
-                            <input id="withdraw-input" type="text" placeholder="$ amount you want to withdraw">
-                            <button id="withdraw-button" class="bg-success text-light">Withdraw</button>
+                            <input id="withdraw-input" type="text" placeholder="$ Enter Withdraw Amount">
+                            <button id="withdraw-button" class="withdraw-button">Withdraw</button>
                         </div>
                     </div>
                 </div>

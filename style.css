@@ -111,11 +111,68 @@ body{
     border-radius: 20px;
     box-shadow: none;
 }
+
+.deposit{
+    background: #64dcdc;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.withdraw{
+    background: #439292;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.balance{
+    background: #40514E;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* ------------------Deposit & Withdraw----------------- */
 .depo-with{
     margin-bottom: 60px;
 }
-
+.depo-style{
+    background: #42a895;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.with-style{
+    background: #4e8278;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#deposit-input{
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+#withdraw-input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+.deposit-button{
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 3px;
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+}
+.withdraw-button{
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 3px;
+    background-image: linear-gradient(to right, #66BFBF, #40514E);
+}
 /* -----------------about us section------------------- */
 
 #about-us{
